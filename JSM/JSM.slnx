@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="JSM.API/JSM.API.csproj" />
+  <Project Path="JSM.Application/JSM.Application.csproj" />
+  <Project Path="JSM.Domain.Test/JSM.Domain.Test.csproj" />
+  <Project Path="JSM.Domain/JSM.Domain.csproj" />
+  <Project Path="JSM.Infra.Data/JSM.Infra.Data.csproj" />
+  <Project Path="JSM.Infra.IoC/JSM.Infra.IoC.csproj" />
+</Solution>
