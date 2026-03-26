@@ -1,10 +1,4 @@
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_JSM.Domain.Test
-C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.csproj.AssemblyReference.cache
-C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.AssemblyInfoInputs.cache
-C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.AssemblyInfo.cs
-C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.csproj.CoreCompileInputs.cache
-C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.sourcelink.json
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\bin\Debug\net8.0\testhost.dll
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\bin\Debug\net8.0\JSM.API.deps.json
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\bin\Debug\net8.0\JSM.API.runtimeconfig.json
@@ -131,6 +125,12 @@ C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\bin\Debug\net8.0\JSM.Application
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\bin\Debug\net8.0\JSM.Domain.pdb
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\bin\Debug\net8.0\JSM.Infra.Data.pdb
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\bin\Debug\net8.0\JSM.Infra.IoC.pdb
+C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.csproj.AssemblyReference.cache
+C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.AssemblyInfoInputs.cache
+C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.AssemblyInfo.cs
+C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.csproj.CoreCompileInputs.cache
+C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.sourcelink.json
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Doma.9C23676B.Up2Date
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\JSM.Domain.Test.dll
 C:\Projetos\JuntosSomosMais\JSM\JSM.Domain.Test\obj\Debug\net8.0\refint\JSM.Domain.Test.dll

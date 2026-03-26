@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JSM.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eec30103cc4a61eacda3e04a1f9f680d51cab45c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4656c508f12c1f804a22030de17b0676128d383f")]
 [assembly: System.Reflection.AssemblyProductAttribute("JSM.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JSM.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
