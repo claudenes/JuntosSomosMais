@@ -1,0 +1,1 @@
+desenvolver uma controller no C# em .NetCore 8.0 que construa um endpoint para enviar um arquivo CSV e que monte uma classe com as colunas dessa planilha CSV e guarde em memoria pelo memorystream com csvhelper

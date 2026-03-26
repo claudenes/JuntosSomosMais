@@ -24,4 +24,8 @@
     <None Include="Data\input-backend.json" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ai-jorney\" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,1 @@
+desenvolver um sistema em C# que leia um arquivo json em anexo e use o JsonSerializer

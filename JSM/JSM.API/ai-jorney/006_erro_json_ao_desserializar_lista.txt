@@ -1,0 +1,21 @@
+o arquivo em anexo está retornar o erro:
+
+System.Text.Json.JsonException
+  HResult=0x80131500
+  Message=The JSON value could not be converted to System.Collections.Generic.List`1[JSM.Application.Dtos.RootObject]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+  Source=System.Text.Json
+  StackTrace:
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at JSM.Application.Services.DataLoaderService.<LoadFromJson>d__6.MoveNext() in C:\Projetos\JuntosSomosMais\JSM\JSM.Application\Services\DataLoaderService.cs:line 109
+   at JSM.Application.Services.DataLoaderService.<LoadUsersAsync>d__3.MoveNext() in C:\Projetos\JuntosSomosMais\JSM\JSM.Application\Services\DataLoaderService.cs:line 34
+   at Program.<<Main>$>d__0.MoveNext() in C:\Projetos\JuntosSomosMais\JSM\JSM.API\Program.cs:line 24
+
+
+
+no c#
