@@ -5,12 +5,44 @@
     "version": "1.0"
   },
   "paths": {
-    "/WeatherForecast": {
+    "/User": {
       "get": {
         "tags": [
-          "WeatherForecast"
+          "User"
         ],
-        "operationId": "GetWeatherForecast",
+        "operationId": "GetUsers",
+        "parameters": [
+          {
+            "name": "region",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -19,7 +51,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
+                    "$ref": "#/components/schemas/UserDto"
                   }
                 }
               },
@@ -27,7 +59,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
+                    "$ref": "#/components/schemas/UserDto"
                   }
                 }
               },
@@ -35,7 +67,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
+                    "$ref": "#/components/schemas/UserDto"
                   }
                 }
               }
@@ -47,23 +79,149 @@
   },
   "components": {
     "schemas": {
-      "WeatherForecast": {
+      "CoordinatesDto": {
         "type": "object",
         "properties": {
-          "date": {
+          "latitude": {
             "type": "string",
-            "format": "date"
+            "nullable": true
           },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
+          "longitude": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LocationDto": {
+        "type": "object",
+        "properties": {
+          "region": {
+            "type": "string",
+            "nullable": true
           },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
+          "street": {
+            "type": "string",
+            "nullable": true
           },
-          "summary": {
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "postcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "coordinates": {
+            "$ref": "#/components/schemas/CoordinatesDto"
+          },
+          "timezone": {
+            "$ref": "#/components/schemas/TimezoneDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NameDto": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "first": {
+            "type": "string",
+            "nullable": true
+          },
+          "last": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PictureDto": {
+        "type": "object",
+        "properties": {
+          "large": {
+            "type": "string",
+            "nullable": true
+          },
+          "medium": {
+            "type": "string",
+            "nullable": true
+          },
+          "thumbnail": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TimezoneDto": {
+        "type": "object",
+        "properties": {
+          "offset": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserDto": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "$ref": "#/components/schemas/NameDto"
+          },
+          "location": {
+            "$ref": "#/components/schemas/LocationDto"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "registered": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "telephoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "mobileNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "picture": {
+            "$ref": "#/components/schemas/PictureDto"
+          },
+          "nationality": {
             "type": "string",
             "nullable": true
           }

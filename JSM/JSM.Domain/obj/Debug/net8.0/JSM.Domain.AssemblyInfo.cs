@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JSM.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9abfd6414eddc70fa34b3bbe6d4e46892d3426f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eec30103cc4a61eacda3e04a1f9f680d51cab45c")]
 [assembly: System.Reflection.AssemblyProductAttribute("JSM.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JSM.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
