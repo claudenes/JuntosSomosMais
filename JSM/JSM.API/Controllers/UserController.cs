@@ -8,8 +8,9 @@ namespace JSM.API.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
+        
         [HttpGet(Name = "GetUsers")]
-        public async Task<List<UserDto>> GetUsers(string? region, string? type, int? pageNumber, int? pageSize, UserService service)
+        public IResult GetUsers(string? region, string? type, int? pageNumber, int? pageSize, UserService service)
         {
             var page = pageNumber ?? 1;
             var size = pageSize ?? 10;
@@ -25,7 +26,13 @@ namespace JSM.API.Controllers
                         .Take(size)
                         .ToList();
 
-            return filtered;
+            return Results.Ok(new
+            {
+                pageNumber = page,
+                pageSize = size,
+                totalCount = total,
+                users = paged
+            });
 
         }
        

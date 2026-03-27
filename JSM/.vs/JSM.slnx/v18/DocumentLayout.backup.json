@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Projetos\\JuntosSomosMais\\JSM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.application\\services\\usertransformerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|solutionrelative:jsm.application\\services\\usertransformerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|solutionrelative:jsm.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314010B3-DF61-11AC-9471-AC2D66DC576B}|JSM.Domain.Test\\JSM.Domain.Test.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.domain.test\\dataloaderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314010B3-DF61-11AC-9471-AC2D66DC576B}|JSM.Domain.Test\\JSM.Domain.Test.csproj|solutionrelative:jsm.domain.test\\dataloaderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.application\\services\\dataloaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|solutionrelative:jsm.application\\services\\dataloaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{314010B3-DF61-11AC-9471-AC2D66DC576B}|JSM.Domain.Test\\JSM.Domain.Test.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.domain.test\\usertransformerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{314010B3-DF61-11AC-9471-AC2D66DC576B}|JSM.Domain.Test\\JSM.Domain.Test.csproj|solutionrelative:jsm.domain.test\\usertransformerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|solutionrelative:jsm.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.application\\dtos\\minhaconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|solutionrelative:jsm.application\\dtos\\minhaconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|solutionrelative:jsm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.application\\dtos\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|solutionrelative:jsm.application\\dtos\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|solutionrelative:jsm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{314010B3-DF61-11AC-9471-AC2D66DC576B}|JSM.Domain.Test\\JSM.Domain.Test.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.domain.test\\dataloaderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{314010B3-DF61-11AC-9471-AC2D66DC576B}|JSM.Domain.Test\\JSM.Domain.Test.csproj|solutionrelative:jsm.domain.test\\dataloaderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|solutionrelative:jsm.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.application\\services\\usertransformerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|solutionrelative:jsm.application\\services\\usertransformerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{913F684A-6534-64CC-9FD2-0B840F1107C6}|JSM.API\\JSM.API.csproj|solutionrelative:jsm.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314010B3-DF61-11AC-9471-AC2D66DC576B}|JSM.Domain.Test\\JSM.Domain.Test.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.domain.test\\usertransformerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314010B3-DF61-11AC-9471-AC2D66DC576B}|JSM.Domain.Test\\JSM.Domain.Test.csproj|solutionrelative:jsm.domain.test\\usertransformerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.application\\dtos\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{051EEC6E-E5F5-17B4-FF4B-5B6F4BD85D48}|JSM.Application\\JSM.Application.csproj|solutionrelative:jsm.application\\dtos\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{314010B3-DF61-11AC-9471-AC2D66DC576B}|JSM.Domain.Test\\JSM.Domain.Test.csproj|c:\\projetos\\juntossomosmais\\jsm\\jsm.domain.test\\jsm.domain.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -58,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DataLoaderService.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\Services\\DataLoaderService.cs",
               "RelativeDocumentMoniker": "JSM.Application\\Services\\DataLoaderService.cs",
               "ToolTip": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\Services\\DataLoaderService.cs",
               "RelativeToolTip": "JSM.Application\\Services\\DataLoaderService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T19:47:58.159Z",
               "IsPinned": true,
@@ -76,13 +92,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "JSM.API\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.API\\Controllers\\UserController.cs",
               "RelativeToolTip": "JSM.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T21:04:32.381Z",
               "IsPinned": true,
@@ -90,13 +106,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "UserTransformerService.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\Services\\UserTransformerService.cs",
               "RelativeDocumentMoniker": "JSM.Application\\Services\\UserTransformerService.cs",
               "ToolTip": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\Services\\UserTransformerService.cs",
               "RelativeToolTip": "JSM.Application\\Services\\UserTransformerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T14:30:12.952Z",
               "IsPinned": true,
@@ -110,7 +126,7 @@
               "RelativeDocumentMoniker": "JSM.API\\Program.cs",
               "ToolTip": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.API\\Program.cs",
               "RelativeToolTip": "JSM.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T14:53:26.444Z",
               "IsPinned": true,
@@ -118,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "UserData.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\Dtos\\UserData.cs",
               "RelativeDocumentMoniker": "JSM.Application\\Dtos\\UserData.cs",
@@ -132,7 +148,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "MinhaConfiguracao.cs",
+              "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\Dtos\\MinhaConfiguracao.cs",
+              "RelativeDocumentMoniker": "JSM.Application\\Dtos\\MinhaConfiguracao.cs",
+              "ToolTip": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\Dtos\\MinhaConfiguracao.cs",
+              "RelativeToolTip": "JSM.Application\\Dtos\\MinhaConfiguracao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T13:32:04.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "JSM.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.API\\appsettings.Development.json",
+              "RelativeToolTip": "JSM.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T12:49:30.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "JSM.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "JSM.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T12:44:32.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.API\\appsettings.json",
+              "RelativeDocumentMoniker": "JSM.API\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.API\\appsettings.json",
+              "RelativeToolTip": "JSM.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T12:44:13.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UserTransformerServiceTests.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Domain.Test\\UserTransformerServiceTests.cs",
               "RelativeDocumentMoniker": "JSM.Domain.Test\\UserTransformerServiceTests.cs",
@@ -145,20 +213,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "DataLoaderServiceTests.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Domain.Test\\DataLoaderServiceTests.cs",
               "RelativeDocumentMoniker": "JSM.Domain.Test\\DataLoaderServiceTests.cs",
               "ToolTip": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Domain.Test\\DataLoaderServiceTests.cs",
               "RelativeToolTip": "JSM.Domain.Test\\DataLoaderServiceTests.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwA8AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwD4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T15:07:26.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "JSM.Domain.Test",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Domain.Test\\JSM.Domain.Test.csproj",
               "RelativeDocumentMoniker": "JSM.Domain.Test\\JSM.Domain.Test.csproj",
@@ -171,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "IUserTransformerService.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\Interfaces\\IUserTransformerService.cs",
               "RelativeDocumentMoniker": "JSM.Application\\Interfaces\\IUserTransformerService.cs",
@@ -184,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ErrorValidation.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\ErrorValidation.cs",
               "RelativeDocumentMoniker": "JSM.Application\\ErrorValidation.cs",
@@ -197,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "IDataLoaderService.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Application\\Interfaces\\IDataLoaderService.cs",
               "RelativeDocumentMoniker": "JSM.Application\\Interfaces\\IDataLoaderService.cs",
@@ -210,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Projetos\\JuntosSomosMais\\JSM\\JSM.Infra.IoC\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "JSM.Infra.IoC\\DependencyInjection.cs",

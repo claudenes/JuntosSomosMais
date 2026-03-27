@@ -3,6 +3,7 @@ using JSM.Application.Dtos;
 using JSM.Application.Interfaces;
 using System.Globalization;
 using System.Text.Json;
+using Microsoft.Extensions.Options;
 
 namespace JSM.Application.Services
 {
@@ -10,23 +11,26 @@ namespace JSM.Application.Services
     {
         private readonly HttpClient _httpClient;
         private readonly UserTransformerService _transformer;
+        private readonly MinhaConfiguracao _config;
 
-        public DataLoaderService(HttpClient httpClient, UserTransformerService transformer)
+        public DataLoaderService(HttpClient httpClient, UserTransformerService transformer, IOptions<MinhaConfiguracao> options)
         {
             _httpClient = httpClient;
             _transformer = transformer;
+            _config = options.Value;
         }
 
         public async Task<List<UserDto>> LoadUsersAsync()
         {
+
             var users = new List<UserDto>();
             // Carrega CSV
-            string csvUrl = "https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.csv";
+            string csvUrl = _config.csvUrl;
             var csvContent = await _httpClient.GetStringAsync(csvUrl);
             users.AddRange(await LoadFromCsv(csvContent));
 
             // Carrega JSON
-            string jsonUrl = "https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.json";
+            string jsonUrl = _config.jsonUrl;
             var jsonContent = await _httpClient.GetStringAsync(jsonUrl);
             users.AddRange(await LoadFromJson(jsonContent));
 

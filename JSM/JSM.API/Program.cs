@@ -1,3 +1,4 @@
+using JSM.Application.Dtos;
 using JSM.Application.Services;
 using JSM.Infra.IoC;
 
@@ -6,6 +7,9 @@ builder.Services.AddHttpClient();
 builder.Services.AddSingleton<UserTransformerService>();
 builder.Services.AddSingleton<DataLoaderService>();
 builder.Services.AddSingleton<UserService>();
+
+builder.Services.Configure<MinhaConfiguracao>(
+    builder.Configuration.GetSection("MinhaConfiguracao"));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
